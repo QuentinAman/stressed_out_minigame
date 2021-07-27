@@ -36,13 +36,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Quests\Generator\Generator.cs" />
      <Compile Include="Assets\Quests\Script.cs" />
      <Compile Include="Assets\Quests\Settings.cs" />
      <Compile Include="Assets\Quests\Interaction.cs" />
      <Compile Include="Assets\Quests\MiniGame.cs" />
      <Compile Include="Assets\PlayerController.cs" />
      <Compile Include="Assets\PlayerInputs.cs" />
-     <Compile Include="Assets\Quests\Generator.cs" />
+     <Compile Include="Assets\Quests\Hullhole\Hullhole.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

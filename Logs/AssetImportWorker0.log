@@ -1,0 +1,497 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/Quentin/Documents/dev/playground_stressed_out
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52997
+Successfully changed project path to: /Users/Quentin/Documents/dev/playground_stressed_out
+/Users/Quentin/Documents/dev/playground_stressed_out
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 62.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/Quentin/Documents/dev/playground_stressed_out/Assets
+GfxDevice: creating device client; threaded=0
+2021-07-27 09:24:31.599 Unity[6278:159733] Color LCD preferred device: Intel Iris Pro Graphics (low power)
+2021-07-27 09:24:31.600 Unity[6278:159733] Metal devices available: 2
+2021-07-27 09:24:31.600 Unity[6278:159733] 0: AMD Radeon R9 M370X (high power)
+2021-07-27 09:24:31.600 Unity[6278:159733] 1: Intel Iris Pro Graphics (low power)
+2021-07-27 09:24:31.600 Unity[6278:159733] Using device AMD Radeon R9 M370X (high power)
+Initializing Metal device caps: AMD Radeon R9 M370X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56278
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.11f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002159 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 57.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.941 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004829 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 58.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.545 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2396 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.3 MB.
+System memory in use after: 185.3 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2833.
+Total: 4.754831 ms (FindLiveObjects: 0.564455 ms CreateObjectMapping: 0.158251 ms MarkObjects: 3.675129 ms  DeleteObjects: 0.354726 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Quests/Generator
+  artifactKey: Guid(0f17c73c2814043bba7913796ccdfbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quests/Generator using Guid(0f17c73c2814043bba7913796ccdfbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6513dae8543a9a3aa75cffbd5a834c19') in 0.005654 seconds
+  Import took 0.010118 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003718 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.592 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2378 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.5 MB.
+System memory in use after: 184.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2837.
+Total: 3.851086 ms (FindLiveObjects: 0.331197 ms CreateObjectMapping: 0.126656 ms MarkObjects: 3.268975 ms  DeleteObjects: 0.123011 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.247609 seconds.
+  path: Assets/Quests/New Folder
+  artifactKey: Guid(979f21df9050143d58c6ffaffe9f5095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quests/New Folder using Guid(979f21df9050143d58c6ffaffe9f5095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a42ebd16259c16e0ba962af39b60633') in 0.006503 seconds
+  Import took 0.013917 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003852 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.963 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2378 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.8 MB.
+System memory in use after: 184.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2841.
+Total: 3.896622 ms (FindLiveObjects: 0.281676 ms CreateObjectMapping: 0.159553 ms MarkObjects: 3.330747 ms  DeleteObjects: 0.123500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 298.954704 seconds.
+  path: Assets/Quests/Hullhole
+  artifactKey: Guid(979f21df9050143d58c6ffaffe9f5095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quests/Hullhole using Guid(979f21df9050143d58c6ffaffe9f5095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241d53ba20b1a0937c6c899aefc44ac6') in 0.007928 seconds
+  Import took 0.013060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.111195 seconds.
+  path: Assets/Quests/Hullhole/Hullhole.cs
+  artifactKey: Guid(e2b8ea245b51e413793776e3190c6379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quests/Hullhole/Hullhole.cs using Guid(e2b8ea245b51e413793776e3190c6379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73db80a66ebd5810fe834f1192c37888') in 0.450888 seconds
+  Import took 0.456686 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003105 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.864 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.5 MB.
+System memory in use after: 189.6 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2846.
+Total: 2.707231 ms (FindLiveObjects: 0.278953 ms CreateObjectMapping: 0.098630 ms MarkObjects: 2.210691 ms  DeleteObjects: 0.118059 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.925464 seconds.
+  path: Assets/Quests/Hullhole/Hullhole.asset
+  artifactKey: Guid(e5e7fc09c983247ff905e472c7541a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quests/Hullhole/Hullhole.asset using Guid(e5e7fc09c983247ff905e472c7541a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a2afa0e9dad5ac008ad80bae0cbdbb') in 1.253595 seconds
+  Import took 1.258779 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003899 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.825 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.0 MB.
+System memory in use after: 194.1 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2850.
+Total: 2.931483 ms (FindLiveObjects: 0.285506 ms CreateObjectMapping: 0.112852 ms MarkObjects: 2.404513 ms  DeleteObjects: 0.127260 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.786262 seconds.
+  path: Assets/Quests/Hullhole/Hullhole.cs
+  artifactKey: Guid(e2b8ea245b51e413793776e3190c6379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quests/Hullhole/Hullhole.cs using Guid(e2b8ea245b51e413793776e3190c6379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47c76ec0d6f1df8442492956f3eabf2') in 0.009307 seconds
+  Import took 0.015301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001611 seconds.
+  path: Assets/Quests/Hullhole/Hullhole.cs
+  artifactKey: Guid(e2b8ea245b51e413793776e3190c6379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quests/Hullhole/Hullhole.cs using Guid(e2b8ea245b51e413793776e3190c6379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47c76ec0d6f1df8442492956f3eabf2') in 0.004233 seconds
+  Import took 0.007762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.443201 seconds.
+  path: Assets/Quests/Hullhole/Hullhole Variant.prefab
+  artifactKey: Guid(5faa95cbf85934752b41552fc24bbcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quests/Hullhole/Hullhole Variant.prefab using Guid(5faa95cbf85934752b41552fc24bbcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79af2d53018fccc8e15f1b551fed21f3') in 0.467657 seconds
+  Import took 0.475020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.627382 seconds.
+  path: Assets/Quests/Hullhole/Hullhole Variant.prefab
+  artifactKey: Guid(5faa95cbf85934752b41552fc24bbcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quests/Hullhole/Hullhole Variant.prefab using Guid(5faa95cbf85934752b41552fc24bbcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79af2d53018fccc8e15f1b551fed21f3') in 0.023005 seconds
+  Import took 0.032770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.716167 seconds.
+  path: Assets/Quests/Hullhole/Hullhole Variant.prefab
+  artifactKey: Guid(5faa95cbf85934752b41552fc24bbcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quests/Hullhole/Hullhole Variant.prefab using Guid(5faa95cbf85934752b41552fc24bbcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073459569dfe7f6cd5b831589dbc1d52') in 0.028223 seconds
+  Import took 0.033785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006851 seconds.
+  path: Assets/Quests/Hullhole/Hullhole Variant.prefab
+  artifactKey: Guid(5faa95cbf85934752b41552fc24bbcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quests/Hullhole/Hullhole Variant.prefab using Guid(5faa95cbf85934752b41552fc24bbcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073459569dfe7f6cd5b831589dbc1d52') in 0.016583 seconds
+  Import took 0.021213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 637.541473 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b4cbde9565bf190136f1148817e1ea') in 0.002333 seconds
+  Import took 0.009806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.844344 seconds.
+  path: Assets/Quests/Script.cs
+  artifactKey: Guid(d99512dc17f38476993687221e91fa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quests/Script.cs using Guid(d99512dc17f38476993687221e91fa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428666bdc02a51e7bfe8ab1d4be498a8') in 0.002075 seconds
+  Import took 0.006717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001762 seconds.
+  path: Assets/Quests/Script.cs
+  artifactKey: Guid(d99512dc17f38476993687221e91fa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quests/Script.cs using Guid(d99512dc17f38476993687221e91fa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428666bdc02a51e7bfe8ab1d4be498a8') in 0.001764 seconds
+  Import took 0.005236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.277168 seconds.
+  path: Assets/Quests/MiniGame.cs
+  artifactKey: Guid(5e9d98d1965444cc4a66bcf405269ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quests/MiniGame.cs using Guid(5e9d98d1965444cc4a66bcf405269ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2285f2fda807c5f1db2f8aa2bac1f490') in 0.001885 seconds
+  Import took 0.006998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 335.656102 seconds.
+  path: Assets/Quests/Quest.prefab
+  artifactKey: Guid(9c67674773b8243878a6e18d0479b1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quests/Quest.prefab using Guid(9c67674773b8243878a6e18d0479b1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131ec811573734b338c217d1fd4c476e') in 0.112760 seconds
+  Import took 0.118867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.673663 seconds.
+  path: Assets/Quests/Quest.prefab
+  artifactKey: Guid(9c67674773b8243878a6e18d0479b1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quests/Quest.prefab using Guid(9c67674773b8243878a6e18d0479b1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45489dc27a3bc9e14233781e50a46958') in 0.010181 seconds
+  Import took 0.017032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.214915 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures
+  artifactKey: Guid(eb4d405ba54724ef89c2fce638946c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures using Guid(eb4d405ba54724ef89c2fce638946c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121a61d2f0b1a6737c664016865a0dc1') in 0.001216 seconds
+  Import took 0.007132 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003629 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.486 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.6 MB.
+System memory in use after: 201.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2861.
+Total: 4.034945 ms (FindLiveObjects: 0.451416 ms CreateObjectMapping: 0.120002 ms MarkObjects: 3.312219 ms  DeleteObjects: 0.150071 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002312 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.474 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.0 MB.
+System memory in use after: 202.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2865.
+Total: 3.617159 ms (FindLiveObjects: 0.330468 ms CreateObjectMapping: 0.146362 ms MarkObjects: 2.962942 ms  DeleteObjects: 0.175988 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002537 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.606 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.2 MB.
+System memory in use after: 202.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2869.
+Total: 4.774956 ms (FindLiveObjects: 0.702625 ms CreateObjectMapping: 0.197557 ms MarkObjects: 3.743120 ms  DeleteObjects: 0.130047 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005543 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.598 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.4 MB.
+System memory in use after: 202.5 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2873.
+Total: 2.824634 ms (FindLiveObjects: 0.272353 ms CreateObjectMapping: 0.105573 ms MarkObjects: 2.324935 ms  DeleteObjects: 0.120717 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1180.805865 seconds.
+  path: Assets/Quests/Quest.prefab
+  artifactKey: Guid(9c67674773b8243878a6e18d0479b1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quests/Quest.prefab using Guid(9c67674773b8243878a6e18d0479b1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5056477496ce3c695d4505e7b032f400') in 0.161541 seconds
+  Import took 0.168225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.260069 seconds.
+  path: Assets/Quests/Quest.prefab
+  artifactKey: Guid(9c67674773b8243878a6e18d0479b1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quests/Quest.prefab using Guid(9c67674773b8243878a6e18d0479b1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e228227cc72e27469378a709350cac') in 0.013932 seconds
+  Import took 0.019693 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002336 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.829 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.7 MB.
+System memory in use after: 202.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2878.
+Total: 3.867866 ms (FindLiveObjects: 0.383731 ms CreateObjectMapping: 0.261111 ms MarkObjects: 3.062943 ms  DeleteObjects: 0.158919 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004347 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.899 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.9 MB.
+System memory in use after: 203.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2882.
+Total: 3.273670 ms (FindLiveObjects: 0.351815 ms CreateObjectMapping: 0.225762 ms MarkObjects: 2.572808 ms  DeleteObjects: 0.122343 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002485 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.910 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.2 MB.
+System memory in use after: 203.3 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2886.
+Total: 2.741570 ms (FindLiveObjects: 0.277610 ms CreateObjectMapping: 0.101066 ms MarkObjects: 2.237706 ms  DeleteObjects: 0.123724 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 217.186786 seconds.
+  path: Assets/Quests/Hullhole/Hullhole Variant.prefab
+  artifactKey: Guid(5faa95cbf85934752b41552fc24bbcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quests/Hullhole/Hullhole Variant.prefab using Guid(5faa95cbf85934752b41552fc24bbcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8f934b013a8f714de6a485432fed67') in 0.118675 seconds
+  Import took 0.125038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.605064 seconds.
+  path: Assets/Quests/Hullhole/Hullhole Variant.prefab
+  artifactKey: Guid(5faa95cbf85934752b41552fc24bbcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quests/Hullhole/Hullhole Variant.prefab using Guid(5faa95cbf85934752b41552fc24bbcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e878b883d19465d8c235ca4d2914f05') in 0.032577 seconds
+  Import took 0.043901 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002141 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.599 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2379 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.5 MB.
+System memory in use after: 203.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2890.
+Total: 4.045838 ms (FindLiveObjects: 0.365317 ms CreateObjectMapping: 0.331226 ms MarkObjects: 3.199856 ms  DeleteObjects: 0.148414 ms)
+
